@@ -1,0 +1,102 @@
+<ion-header class="ion-padding columna titulo"  >
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()">
+        <ion-icon slot="icon-only" name="menu-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    
+    <ion-buttons slot="end">
+      <ion-avatar>
+         <ion-img src="/assets/Avatar.jpg"></ion-img>
+      </ion-avatar>
+    </ion-buttons>
+    <ion-title>Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" >
+  <br>
+  <br>
+  <br>
+  <ion-card>
+    <ion-card-header>
+      <ion-img src="/assets/icon1.png"></ion-img>
+      
+    </ion-card-header>
+  
+    <ion-card-content>
+      Bienvenidos a la aplicación de recopilación grafica e infografica más grande del país
+    </ion-card-content>
+  </ion-card>
+  <br>
+  <br>
+    <ion-text>
+      <h2>Gráficos Populares</h2>
+    </ion-text>
+  <br>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card class="tarjetas">
+          <ion-card-header>
+            <ion-card-title>Actualización 18/9/2021.</ion-card-title>
+          </ion-card-header>
+          <ion-img src="/assets/economia.png"></ion-img> 
+          <ion-card-content>
+            
+            Agregados graficos covid Chile agosto de 2021, inflación julio 2021 y desempleo mayo 2021.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card class="tarjetas">
+          <ion-card-header>
+            <ion-img src="/assets/salud.png"></ion-img>
+            <ion-card-subtitle class="subtitulos">Islas Galápagos</ion-card-subtitle>
+            <ion-card-title>Recogen 1.627 kilos de desechos en Galápagos.</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+
+            El material recolectado fue trasladado a los centros de reciclaje para el tratamiento correspondiente.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <br>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card class="tarjetas">
+          <ion-card-header>
+            <ion-img src="/assets/politica.png"></ion-img>
+            <ion-card-subtitle class="subtitulos">Bolsa de Santiago</ion-card-subtitle>
+            <ion-card-title>Bolsa de Santiago retrocedió un 3,90% este lunes debido a la compleja situación financiera de Evergrande.</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            El IPSA, principal índice de la plaza local, retrocedió un fuerte 3,90% este lunes.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card class="tarjetas">
+          <ion-card-header>
+            
+            <ion-card-title>Actualización 15/9/2021.</ion-card-title>
+          </ion-card-header>
+          <ion-img src="/assets/educacion.png"></ion-img>
+          <ion-card-content>
+            Maintenimiento de servicios y arreglo de errores.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
+
+

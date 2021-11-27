@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"
+          text="Atras"
+          color="primary"
+          mode="ios">
+      </ion-back-button>
+    </ion-buttons>
+    <ion-title>Registro de Usuario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="fixed">Nombre</ion-label>
+    <ion-input type="text" [(ngModel)]="newDato.nom"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="fixed">Password</ion-label>
+    <ion-input type="Password" [(ngModel)]="newDato.password"></ion-input>
+  </ion-item>
+  
+
+  <ion-button (click)="addDatos()" expand="full" Href="/inicio">
+    Agregar datos
+  </ion-button>
+</ion-content>
+

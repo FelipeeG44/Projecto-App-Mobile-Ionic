@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"
+          text="Atras"
+          color="primary"
+          mode="ios">
+      </ion-back-button>
+    </ion-buttons>
+    <ion-title>Categorías Chile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col routerlink="/listadopais">
+        <ion-card class="tarjetas">
+          <ion-card-header>
+            <ion-img src="/assets/economia.png"></ion-img>
+            <ion-card-subtitle class="subtitulos">Grafíco inflación 2015-2026</ion-card-subtitle>
+            <ion-card-title>Economía</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Los ultimos graficos e infografias de la economia del país.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card class="tarjetas">
+          <ion-card-header>
+            <ion-img src="/assets/salud.png"></ion-img>
+            <ion-card-subtitle class="subtitulos">Casos VIH en Chile 2018</ion-card-subtitle>
+            <ion-card-title>Salud</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Los ultimos graficos e infografias de la salud.
+          </ion-card-content>
+          <ion-button size="small" href="/listadopais" color="success">Ir</ion-button>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card class="tarjetas">
+          <ion-card-header>
+            <ion-img src="/assets/politica.png"></ion-img>
+            <ion-card-subtitle class="subtitulos">Numero de candidaturas a concejales 2004-2021</ion-card-subtitle>
+            <ion-card-title>Política</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Todas las estadisticas políticas de los ultimos años.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card class="tarjetas">
+          <ion-card-header>
+            <ion-img src="/assets/educacion.png"></ion-img>
+            <ion-card-subtitle class="subtitulos">Evolución en la matricula educación superior 1984-2018</ion-card-subtitle>
+            <ion-card-title>Educación</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Las ultimas estadisticas y parametros de la educación en el país.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

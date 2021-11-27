@@ -1,0 +1,37 @@
+//export interface RespuestaAdminAreaList{
+  //  tiempos: Tiempo [];
+//}
+
+//export interface Tiempo{
+
+   // ID:	string;
+   // LocalizedName:	string;	
+   // EnglishName:	string;
+   // LocalizedType:	string;
+//EnglishType:	string;	
+   // CountryID:	string;
+
+//}
+
+
+export interface RespuestaToHeadLines {
+    status: string;
+    totalResults: number;
+    articles: Article[];
+  }
+  
+  export interface Article {
+    source: Source;
+    author?: string;
+    title: string;
+    description: string;
+    url: string;
+    urlToImage?: string;
+    publishedAt: string;
+    content: string;
+  }
+  
+  export interface Source {
+    id?: string;
+    name: string;
+  }
