@@ -20,16 +20,8 @@ const routes: Routes = [
     loadChildren: () => import('./pages/lista/lista.module').then( m => m.ListaPageModule)
   },
   {
-    path: 'formulario',
-    loadChildren: () => import('./pages/formulario/formulario.module').then( m => m.FormularioPageModule)
-  },
-  {
     path: 'bienvenido',
     loadChildren: () => import('./pages/bienvenido/bienvenido.module').then( m => m.BienvenidoPageModule)
-  },
-  {
-    path: 'iniciosesion',
-    loadChildren: () => import('./pages/iniciosesion/iniciosesion.module').then( m => m.IniciosesionPageModule)
   },
  
   {
