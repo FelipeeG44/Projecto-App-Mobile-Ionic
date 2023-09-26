@@ -1,1 +1,2 @@
-# entrega3_garciafelipe_007D
+Felipe García 
+Proyecto Android/Ionic
